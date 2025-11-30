@@ -1,0 +1,151 @@
+{
+  "total_predictions": 26,
+  "predictions_history": [
+    {
+      "timestamp": "2025-11-03T03:05:56.712787",
+      "disease": "Aphids Infestation",
+      "confidence": 95.0
+    },
+    {
+      "timestamp": "2025-11-03T03:35:22.870358",
+      "disease": "Cucumber Downy Mildew",
+      "confidence": 75.0
+    },
+    {
+      "timestamp": "2025-11-03T17:24:53.299545",
+      "disease": "Corn Earworm",
+      "confidence": 90.0
+    },
+    {
+      "timestamp": "2025-11-03T17:28:46.988066",
+      "disease": "Fall Armyworm",
+      "confidence": 90.0
+    },
+    {
+      "timestamp": "2025-11-03T17:29:45.561426",
+      "disease": "Corn Fall Armyworm",
+      "confidence": 90.0
+    },
+    {
+      "timestamp": "2025-11-03T17:33:47.963580",
+      "disease": "Corn Fall Armyworm",
+      "confidence": 90.0
+    },
+    {
+      "timestamp": "2025-11-03T17:37:39.061795",
+      "disease": "Corn Armyworm",
+      "confidence": 90.0
+    },
+    {
+      "timestamp": "2025-11-03T17:41:47.477482",
+      "disease": "Corn Fall Armyworm",
+      "confidence": 90.0
+    },
+    {
+      "timestamp": "2025-11-03T17:57:15.018110",
+      "disease": "Corn Fall Armyworm",
+      "confidence": 90.0
+    },
+    {
+      "timestamp": "2025-11-03T18:57:03.919505",
+      "disease": "Corn Fall Armyworm",
+      "confidence": 90.0
+    },
+    {
+      "timestamp": "2025-11-03T18:58:48.174337",
+      "disease": "Corn Fall Armyworm",
+      "confidence": 90.0
+    },
+    {
+      "timestamp": "2025-11-03T19:00:43.621554",
+      "disease": "Aphid Infestation",
+      "confidence": 90.0
+    },
+    {
+      "timestamp": "2025-11-03T19:07:42.966827",
+      "disease": "Corn Fall Armyworm",
+      "confidence": 90.0
+    },
+    {
+      "timestamp": "2025-11-04T09:57:16.889303",
+      "disease": "Corn Armyworm",
+      "confidence": 90.0
+    },
+    {
+      "timestamp": "2025-11-04T10:00:54.442455",
+      "disease": "Aphids infestation",
+      "confidence": 90.0
+    },
+    {
+      "timestamp": "2025-11-04T10:01:57.682220",
+      "disease": "Insect Damage",
+      "confidence": 90.0
+    },
+    {
+      "timestamp": "2025-11-04T10:03:14.903007",
+      "disease": "Leaf spot",
+      "confidence": 75.0
+    },
+    {
+      "timestamp": "2025-11-04T10:04:03.735844",
+      "disease": "No disease detected",
+      "confidence": 90.0
+    },
+    {
+      "timestamp": "2025-11-04T10:04:39.926774",
+      "disease": "Leaf-eating Insect damage",
+      "confidence": 90.0
+    },
+    {
+      "timestamp": "2025-11-04T10:41:32.512227",
+      "disease": "Corn Fall Armyworm",
+      "confidence": 90.0
+    },
+    {
+      "timestamp": "2025-11-04T11:47:43.923429",
+      "disease": "Corn Fall Armyworm",
+      "confidence": 90.0
+    },
+    {
+      "timestamp": "2025-11-04T12:14:29.055559",
+      "disease": "Corn Fall Armyworm",
+      "confidence": 90.0
+    },
+    {
+      "timestamp": "2025-11-27T23:16:26.014780",
+      "disease": "Corn Fall Armyworm",
+      "confidence": 90.0
+    },
+    {
+      "timestamp": "2025-11-28T10:32:40.054924",
+      "disease": "Fall Armyworm",
+      "confidence": 90.0
+    },
+    {
+      "timestamp": "2025-11-28T10:42:09.399052",
+      "disease": "Corn Fall Armyworm",
+      "confidence": 90.0
+    },
+    {
+      "timestamp": "2025-11-28T11:24:27.131240",
+      "disease": "Corn Fall Armyworm",
+      "confidence": 90.0
+    }
+  ],
+  "disease_distribution": {
+    "Aphids Infestation": 1,
+    "Cucumber Downy Mildew": 1,
+    "Corn Earworm": 1,
+    "Fall Armyworm": 2,
+    "Corn Fall Armyworm": 13,
+    "Corn Armyworm": 2,
+    "Aphid Infestation": 1,
+    "Aphids infestation": 1,
+    "Insect Damage": 1,
+    "Leaf spot": 1,
+    "No disease detected": 1,
+    "Leaf-eating Insect damage": 1
+  },
+  "first_prediction_date": "2025-11-03T03:05:56.712787",
+  "last_prediction_date": "2025-11-28T11:24:27.131240"
+}

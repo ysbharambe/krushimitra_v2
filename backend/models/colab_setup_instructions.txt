@@ -1,0 +1,153 @@
+=====================================================================
+GOOGLE COLAB TRAINING INSTRUCTIONS
+=====================================================================
+
+STEP 1: UPLOAD FILES TO COLAB
+-------------------------------
+1. Open Google Colab: https://colab.research.google.com
+2. Upload train_plant_disease_model.py to Colab
+3. Upload PlantVillage dataset to Colab or Google Drive
+
+STEP 2: SETUP COLAB ENVIRONMENT
+---------------------------------
+Run this in first cell:
+
+!pip install -q torch torchvision tqdm scikit-learn pillow
+
+STEP 3: UPLOAD DATASET
+-----------------------
+Option A - Upload directly to Colab (slower):
+  - Click folder icon on left sidebar
+  - Upload PlantVillage folder
+
+Option B - Use Google Drive (recommended):
+  from google.colab import drive
+  drive.mount('/content/drive')
+  # Then update Config.DATASET_PATH in the script
+
+STEP 4: CONFIGURE PATHS
+------------------------
+Edit these lines in train_plant_disease_model.py:
+
+class Config:
+    DATASET_PATH = "/content/PlantVillage"  # or "/content/drive/MyDrive/PlantVillage"
+    OUTPUT_PATH = "/content/plant_disease_model.pth"
+    CLASS_NAMES_FILE = "/content/class_names.json"
+
+STEP 5: RUN TRAINING
+---------------------
+Run the training script:
+
+!python train_plant_disease_model.py
+
+Training will take 15-30 minutes depending on:
+- Dataset size
+- Number of epochs (default: 25)
+- GPU availability
+
+STEP 6: DOWNLOAD TRAINED MODEL
+--------------------------------
+After training completes, files will auto-download:
+- plant_disease_model.pth  (the trained model)
+- class_names.json         (disease names)
+
+If auto-download fails, manually download:
+
+from google.colab import files
+files.download('/content/plant_disease_model.pth')
+files.download('/content/class_names.json')
+
+STEP 7: INTEGRATE WITH PROJECT
+--------------------------------
+1. Copy plant_disease_model.pth to:
+   C:\Users\Yash Bharambe\Desktop\sample_v2\backend\models\
+
+2. Copy class_names.json to:
+   C:\Users\Yash Bharambe\Desktop\sample_v2\backend\models\
+
+3. Restart backend:
+   python main.py
+
+4. System will automatically detect and use custom model!
+
+=====================================================================
+DATASET STRUCTURE (PlantVillage)
+=====================================================================
+
+PlantVillage/
+├── Apple___Apple_scab/
+│   ├── image1.jpg
+│   ├── image2.jpg
+│   └── ...
+├── Apple___Black_rot/
+│   ├── image1.jpg
+│   └── ...
+├── Tomato___Early_blight/
+│   └── ...
+└── ... (38 classes total)
+
+Each folder = one disease class
+Folder names will be used as class names
+
+=====================================================================
+CUSTOMIZATION OPTIONS
+=====================================================================
+
+In train_plant_disease_model.py, you can modify:
+
+1. Image size:
+   IMAGE_SIZE = 224  # Try 256, 384, or 512
+
+2. Batch size:
+   BATCH_SIZE = 32   # Reduce if GPU memory error
+
+3. Epochs:
+   EPOCHS = 25       # Increase for better accuracy
+
+4. Model architecture:
+   MODEL_NAME = "efficientnet_b0"
+   # Options: "resnet50", "efficientnet_b0", "mobilenet_v2"
+
+5. Learning rate:
+   LEARNING_RATE = 0.001  # Try 0.0001 for fine-tuning
+
+=====================================================================
+TROUBLESHOOTING
+=====================================================================
+
+Issue: GPU Out of Memory
+Solution: Reduce BATCH_SIZE to 16 or 8
+
+Issue: Low accuracy (<80%)
+Solution: 
+- Increase EPOCHS to 50
+- Use larger model (resnet50)
+- Check dataset quality
+
+Issue: Training too slow
+Solution:
+- Enable GPU: Runtime → Change runtime type → GPU
+- Use smaller model (mobilenet_v2)
+- Reduce image size
+
+Issue: Model not detected after upload
+Solution:
+- Ensure file name is: plant_disease_model.pth
+- Check file is in: backend/models/ folder
+- Restart backend server
+
+=====================================================================
+EXPECTED RESULTS
+=====================================================================
+
+Good training results:
+- Training accuracy: >95%
+- Validation accuracy: >90%
+- Model file size: 20-50MB
+
+If validation accuracy < 85%, consider:
+- More training epochs
+- Different model architecture
+- Data augmentation tuning
+
+=====================================================================

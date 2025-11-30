@@ -1,0 +1,8 @@
+# Plant Disease Dataset Configuration
+path: ./user_collected
+train: images/train
+val: images/val
+
+# Classes
+nc: 10
+names: ['Healthy', 'Leaf_Spot', 'Leaf_Blight', 'Powdery_Mildew', 'Rust', 'Bacterial_Blight', 'Early_Blight', 'Late_Blight', 'Anthracnose', 'Mosaic_Virus']

@@ -1,0 +1,177 @@
+{
+  "leaf_spot": {
+    "chemical": {
+      "name": "Mancozeb",
+      "description": "Broad-spectrum fungicide effective against blight and leaf spot diseases.",
+      "application_steps": "Mix 2.5g per liter of water and spray evenly on affected leaves. Apply early morning or evening. Repeat every 7-10 days.",
+      "where_to_buy": "https://www.amazon.in/s?k=Mancozeb+fungicide"
+    },
+    "organic": {
+      "name": "Neem Oil",
+      "description": "Natural antifungal agent that prevents further infection and controls fungal growth.",
+      "application_steps": "Dilute 5ml neem oil per liter of water. Add few drops of liquid soap as emulsifier. Spray early morning. Repeat weekly.",
+      "where_to_buy": "https://www.amazon.in/s?k=Neem+Oil+organic"
+    },
+    "preventive_measures": [
+      "Remove fallen leaves and plant debris regularly",
+      "Ensure good air circulation between plants",
+      "Water at soil level, avoid overhead irrigation",
+      "Practice crop rotation annually",
+      "Use disease-free seeds and resistant varieties"
+    ]
+  },
+  "leaf_blight": {
+    "chemical": {
+      "name": "Copper Oxychloride",
+      "description": "Effective copper-based fungicide for controlling blight diseases in various crops.",
+      "application_steps": "Mix 3g per liter of water. Spray thoroughly covering all plant parts. Apply at 10-day intervals.",
+      "where_to_buy": "https://www.amazon.in/s?k=Copper+Oxychloride"
+    },
+    "organic": {
+      "name": "Baking Soda Solution",
+      "description": "Natural fungicide that creates alkaline environment inhibiting fungal growth.",
+      "application_steps": "Mix 1 tablespoon baking soda + 1 tablespoon vegetable oil in 4 liters water. Spray on affected areas weekly.",
+      "where_to_buy": "Available in local grocery stores"
+    },
+    "preventive_measures": [
+      "Maintain proper spacing between plants for air circulation",
+      "Water plants at base, avoid wetting leaves",
+      "Remove and destroy infected plant debris",
+      "Apply mulch to prevent soil splash on leaves",
+      "Rotate crops yearly to break disease cycle"
+    ]
+  },
+  "powdery_mildew": {
+    "chemical": {
+      "name": "Sulfur-based Fungicide",
+      "description": "Traditional and effective treatment for powdery mildew on various crops.",
+      "application_steps": "Apply as dust or mix 2g per liter water. Spray when disease first appears. Repeat every 7-14 days.",
+      "where_to_buy": "https://www.amazon.in/s?k=Sulfur+fungicide"
+    },
+    "organic": {
+      "name": "Milk Spray",
+      "description": "Milk proteins create hostile environment for powdery mildew fungi.",
+      "application_steps": "Mix 1 part milk with 9 parts water. Spray on leaves weekly as preventive or treatment measure.",
+      "where_to_buy": "Use regular cow milk from local dairy"
+    }
+  },
+  "rust": {
+    "chemical": {
+      "name": "Propiconazole",
+      "description": "Systemic fungicide effective against rust diseases in cereals and other crops.",
+      "application_steps": "Mix 1ml per liter of water. Apply at first sign of disease. Repeat after 15 days if needed.",
+      "where_to_buy": "https://www.amazon.in/s?k=Propiconazole+fungicide"
+    },
+    "organic": {
+      "name": "Garlic Extract",
+      "description": "Natural antifungal with sulfur compounds that inhibit rust fungi.",
+      "application_steps": "Crush 10 garlic cloves in 1 liter water. Let it steep overnight. Strain and spray on plants weekly.",
+      "where_to_buy": "Use fresh garlic from local market"
+    }
+  },
+  "bacterial_blight": {
+    "chemical": {
+      "name": "Streptocycline",
+      "description": "Antibiotic effective against bacterial diseases in plants.",
+      "application_steps": "Mix 1g in 10 liters water. Spray on affected plants. Apply 2-3 times at 5-day intervals.",
+      "where_to_buy": "https://www.amazon.in/s?k=Streptocycline+plant"
+    },
+    "organic": {
+      "name": "Bordeaux Mixture",
+      "description": "Traditional organic copper-based bactericide and fungicide.",
+      "application_steps": "Mix 100g copper sulfate + 100g lime in 10 liters water. Spray on plants. Apply every 10-15 days.",
+      "where_to_buy": "https://www.amazon.in/s?k=Bordeaux+mixture"
+    }
+  },
+  "early_blight": {
+    "chemical": {
+      "name": "Chlorothalonil",
+      "description": "Broad-spectrum fungicide for blight control in tomatoes and potatoes.",
+      "application_steps": "Mix 2ml per liter water. Start spraying when plants are established. Repeat every 7-10 days.",
+      "where_to_buy": "https://www.amazon.in/s?k=Chlorothalonil"
+    },
+    "organic": {
+      "name": "Compost Tea",
+      "description": "Beneficial microorganisms suppress disease-causing pathogens.",
+      "application_steps": "Steep well-aged compost in water for 3 days. Strain and spray on plants. Apply bi-weekly.",
+      "where_to_buy": "Make at home with compost"
+    }
+  },
+  "late_blight": {
+    "chemical": {
+      "name": "Metalaxyl + Mancozeb",
+      "description": "Combination fungicide providing systemic and contact action against late blight.",
+      "application_steps": "Mix 2.5g per liter water. Apply preventively or at disease onset. Repeat every 7-10 days.",
+      "where_to_buy": "https://www.amazon.in/s?k=Metalaxyl+Mancozeb"
+    },
+    "organic": {
+      "name": "Copper Soap Fungicide",
+      "description": "Organic copper-based treatment safe for edible crops.",
+      "application_steps": "Mix according to product instructions. Spray every 7-10 days in humid conditions.",
+      "where_to_buy": "https://www.amazon.in/s?k=copper+soap+fungicide+organic"
+    }
+  },
+  "anthracnose": {
+    "chemical": {
+      "name": "Carbendazim",
+      "description": "Systemic fungicide effective against anthracnose in fruits and vegetables.",
+      "application_steps": "Mix 1g per liter water. Spray at flowering and fruit development stages. Repeat at 15-day intervals.",
+      "where_to_buy": "https://www.amazon.in/s?k=Carbendazim"
+    },
+    "organic": {
+      "name": "Potassium Bicarbonate",
+      "description": "Natural fungicide that disrupts fungal cell walls.",
+      "application_steps": "Mix 2 tablespoons per liter water with few drops of soap. Spray weekly on affected plants.",
+      "where_to_buy": "https://www.amazon.in/s?k=Potassium+Bicarbonate"
+    }
+  },
+  "mosaic_virus": {
+    "chemical": {
+      "name": "Imidacloprid",
+      "description": "Systemic insecticide to control virus-spreading insects like aphids and whiteflies.",
+      "application_steps": "Mix 0.5ml per liter water. Spray to control vector insects. Remove and destroy infected plants.",
+      "where_to_buy": "https://www.amazon.in/s?k=Imidacloprid"
+    },
+    "organic": {
+      "name": "Neem Oil + Insecticidal Soap",
+      "description": "Controls virus-spreading insects naturally. Virus itself cannot be cured.",
+      "application_steps": "Mix 5ml neem oil + 5ml insecticidal soap per liter water. Spray to control aphids. Remove infected plants.",
+      "where_to_buy": "https://www.amazon.in/s?k=neem+oil+insecticidal+soap"
+    }
+  },
+  "healthy": {
+    "chemical": {
+      "name": "Preventive NPK Fertilizer",
+      "description": "Balanced nutrition to maintain plant health and disease resistance.",
+      "application_steps": "Apply NPK 19:19:19 at 5g per liter water every 15 days as foliar spray or soil application.",
+      "where_to_buy": "https://www.amazon.in/s?k=NPK+fertilizer"
+    },
+    "organic": {
+      "name": "Vermicompost",
+      "description": "Rich organic fertilizer improving soil health and plant immunity.",
+      "application_steps": "Apply 100-200g around plant base monthly. Mix well with soil and water.",
+      "where_to_buy": "https://www.amazon.in/s?k=vermicompost"
+    }
+  },
+  "default": {
+    "chemical": {
+      "name": "Consult Agricultural Expert",
+      "description": "Disease detected but specific treatment not in database. Please consult with local agricultural officer for proper diagnosis and treatment.",
+      "application_steps": "Visit nearest Krishi Vigyan Kendra (KVK) or agricultural extension office with plant samples.",
+      "where_to_buy": "Local agricultural input dealer or cooperative"
+    },
+    "organic": {
+      "name": "General Neem Oil Treatment",
+      "description": "Broad-spectrum organic pesticide effective against various plant diseases and pests.",
+      "application_steps": "Dilute 5ml neem oil per liter water. Add few drops liquid soap. Spray every 7-10 days on affected plants.",
+      "where_to_buy": "https://www.amazon.in/s?k=Neem+Oil+organic"
+    },
+    "preventive_measures": [
+      "Maintain proper plant spacing for air circulation",
+      "Water plants at base, avoid wetting foliage",
+      "Remove and destroy infected plant parts",
+      "Keep garden area clean and weed-free",
+      "Apply organic mulch to suppress soil-borne diseases"
+    ]
+  }
+}
